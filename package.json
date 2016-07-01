@@ -1,0 +1,28 @@
+{
+  "name": "stackoverbot",
+  "version": "1.0.0",
+  "description": "Slack bot for search Stack Overflow snippet",
+  "author": "Hidayat Sagita",
+  "main": "bot.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdytsgt/stackoverbot.git" 
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0",
+    "botkit": "^0.2.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Slack",
+    "Bot",
+    "Node",
+    "Js",
+    "Cheerio",
+    "Google",
+    "Search",
+    "Stack",
+    "Overflow"
+  ]
+}
