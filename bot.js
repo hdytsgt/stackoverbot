@@ -49,6 +49,12 @@ controller.hears( [ 'find me (.*)' ], 'direct_message,direct_mention,mention', f
  */
 var BOT = {
 
+	/**
+	 * Build Google Search URL
+	 * 
+	 * @param  keyword
+	 * @return string
+	 */
 	buildUrl: function( keyword ) {
 
 		var _query = {
@@ -68,6 +74,17 @@ var BOT = {
 		return _url;
 	},
 
+	/**
+	 * Display snippet from Stack Overflow
+	 * 
+	 * @param  bot
+	 * @param  message
+	 * @param  $ 
+	 * @param  obj
+	 * @param  answer
+	 * 
+	 * @return void
+	 */
 	parseSnippet : function( bot, message, $, obj, answer ) {
 
 		bot.reply( message, 'From : *' + obj.title + '*' );
@@ -83,6 +100,15 @@ var BOT = {
 
 	},
 
+	/**
+	 * Run Bot
+	 * 
+	 * @param  bot
+	 * @param  message
+	 * @param  keyword
+	 * 
+	 * @return void
+	 */
 	process : function( bot, message, keyword ) {
 
 		var _url  = BOT.buildUrl( keyword );
