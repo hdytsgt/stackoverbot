@@ -29,3 +29,8 @@ This should just works as any other Node.js application.
 3. Run `node bot.js` or you can use any Node.js manager like [PM2](https://github.com/Unitech/PM2/) : `pm2 start bot.js`
 
 
+
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/hdytsgt/stackoverbot/master/screenshot.png)
