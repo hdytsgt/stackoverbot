@@ -3,25 +3,25 @@
 /**
  * API Key & Token
  */
-const SlackToken		= '<Your Bot Slack Token>';
-const GoogleAPIKey		= '<Your Google API Key>';
-const GoogleCXCode		= '<Your Google CX ID>';
+const SlackToken   = '<Your Bot Slack Token>';
+const GoogleAPIKey = '<Your Google API Key>';
+const GoogleCXCode = '<Your Google CX ID>';
 
 /**
  * Define Required vars
  */
 var botkit     = require( 'botkit' ),
-	request    = require( 'request' ),
-	cheerio    = require( 'cheerio' ),
-	url        = require( 'url' );
+    request    = require( 'request' ),
+    cheerio    = require( 'cheerio' ),
+    url        = require( 'url' );
 
 /**
  * Build up Slack
  */
 var controller = botkit.slackbot();
-var bot        = controller.spawn({
-					token: SlackToken
-				 });
+var bot        = controller.spawn({ 
+                    token: SlackToken
+                 });
 
 /**
  * Fireup Slack's Real Time Messaging
