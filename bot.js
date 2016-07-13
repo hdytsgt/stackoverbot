@@ -143,11 +143,7 @@ var BOT = {
 									var $ = cheerio.load( body );
 
 									if( $( '.accepted-answer' ).length ) {
-										
 										BOT.parseSnippet( bot, message, $, obj, $( '.accepted-answer' ) );
-
-									} else {
-
 									}
 
 								} else {
