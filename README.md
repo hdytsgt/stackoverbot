@@ -4,7 +4,7 @@ A Node.js-based Slack bot for searching Stack Overflow snippet.
 
 There are three keys required for this to run : [Slack Bot Token](https://my.slack.com/services/new/bot), [Google API Key](https://code.google.com/apis/console/), [Google CX ID](http://www.google.com/cse/manage/create).
 
-![Screenshot](https://raw.githubusercontent.com/hdytsgt/stackoverbot/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/hdytsgt/stackoverbot/master/media/screenshot.png)
 
 ## Available Command
 
